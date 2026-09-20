@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VibeTalk AI Messenger</string>
+    <string name="app_short_name">VibeTalk AI</string>
+    <string name="app_tagline">Connect. Communicate. Think Smarter.</string>
+    <string name="app_creator">Atta Muhammad</string>
+    <string name="app_developer">AM Digital Hub</string>
+    
+    <!-- Tab Titles -->
+    <string name="tab_chats">Chats</string>
+    <string name="tab_calls">Calls</string>
+    <string name="tab_ai">AI</string>
+    <string name="tab_stories">Stories</string>
+    <string name="tab_contacts">Contacts</string>
+</resources>

@@ -1,0 +1,12 @@
+{
+  "name": "VibeTalk AI Messenger",
+  "description": "Connect. Communicate. Think Smarter. Next-generation Android AI Messenger with end-to-end encryption and real-time language translation features.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,10 @@
+<resources>
+    <!-- VibeTalk Original Palette: Deep Obsidian + Neon Teal / Emerald & Electric Cyan -->
+    <color name="vibe_primary">#00E5A3</color>
+    <color name="vibe_primary_dark">#00B882</color>
+    <color name="vibe_accent">#00C2FF</color>
+    <color name="vibe_surface_dark">#0F141C</color>
+    <color name="vibe_background_dark">#080B10</color>
+    <color name="vibe_surface_light">#F5F8FC</color>
+    <color name="vibe_background_light">#FFFFFF</color>
+</resources>

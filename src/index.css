@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* 
+ * VibeTalk Custom Aesthetic Stylesheet
+ * Created by AM Digital Hub - Atta Muhammad
+ */
+
+/* Global Scrollbar Customization - WhatsApp Style */
+::-webkit-scrollbar {
+  width: 4px !important;       /* Very sleek and slim vertical scrollbar */
+  height: 4px !important;      /* Very sleek and slim horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.2) !important; /* Soft, very faint gray */
+  border-radius: 9999px !important;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.4) !important; /* Faint gray on hover */
+}
+
+/* Hide all scrollbar buttons/arrows completely */
+::-webkit-scrollbar-button {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Hide scrollbar utility class */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}
+
+/* Custom scrollbar class for a beautiful WhatsApp experience */
+.whatsapp-scrollbar::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+.whatsapp-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.2) !important; /* Elegant tint of emerald */
+}
+
+.whatsapp-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.4) !important;
+}
